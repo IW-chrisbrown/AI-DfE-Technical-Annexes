@@ -1,0 +1,1 @@
+## Luminaire Warranty

@@ -1,0 +1,3 @@
+## Presence
+on, absence
+off

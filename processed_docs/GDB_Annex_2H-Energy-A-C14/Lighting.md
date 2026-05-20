@@ -1,0 +1,2 @@
+## Lighting
+(W/m²)

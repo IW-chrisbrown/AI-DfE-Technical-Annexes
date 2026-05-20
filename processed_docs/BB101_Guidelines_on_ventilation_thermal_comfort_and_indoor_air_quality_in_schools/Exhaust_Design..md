@@ -1,0 +1,5 @@
+## Exhaust Design.
+- HSG 258, Controlling airborne contaminants at work, A guide to local exhaust
+ventilation.
+
+References on swimming pools
