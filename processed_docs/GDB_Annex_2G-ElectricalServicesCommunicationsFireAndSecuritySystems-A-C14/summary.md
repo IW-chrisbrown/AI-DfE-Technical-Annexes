@@ -4,8 +4,8 @@
 - 19%
 
 ## Max Degradation Output
-- 52%
 - 87%
+- 52%
 
 ## Humidity Resistance 85%
 - 85%
