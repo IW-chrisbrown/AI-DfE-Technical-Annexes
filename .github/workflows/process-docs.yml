@@ -1,0 +1,26 @@
+name: Process Documents
+
+on:
+  push:
+    paths:
+      - '**.md'
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Run processing script
+        run: |
+          python3 process_docs.py
+
+      - name: Commit processed files
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add processed_docs
+          git commit -m "Auto-process documents" || echo "No changes"
+          git push
